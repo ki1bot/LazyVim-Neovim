@@ -1,0 +1,55 @@
+
+# Secrets
+
+.env
+
+*.env
+
+*.pem
+
+*.key
+
+*.crt
+
+*.p12
+
+*.pfx
+
+.ssh/
+
+**/.ssh/
+
+id_rsa
+
+id_rsa.pub
+
+id_ed25519
+
+id_ed25519.pub
+
+
+
+# Runtime/cache
+
+.cache/
+
+.local/
+
+nvim-data/
+
+node_modules/
+
+
+
+# Logs
+
+*.log
+
+
+
+# OS
+
+.DS_Store
+
+Thumbs.db
+
