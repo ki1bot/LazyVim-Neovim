@@ -42,7 +42,6 @@ ZSH_THEME="robbyrussell"
 # DISABLE_MAGIC_FUNCTIONS="true"
 
 # Uncomment the following line to disable colors in ls.
-# DISABLE_LS_COLORS="true"
 
 # Uncomment the following line to disable auto-setting terminal title.
 # DISABLE_AUTO_TITLE="true"
@@ -446,6 +445,21 @@ alias nv='nvim'
 alias nvcfg='cd ~/.config/nvim && nvim .'
 
 alias dashboard='nvim ~/.config/nvim/lua/plugins/dashboard.lua'
+
+
+
+
+
+
+# =========================
+
+# FIX LS COLORS FOR WSL
+
+# =========================
+
+# Hilangkan background hijau pada folder/symlink Windows mount (/mnt/c, /mnt/d)
+
+export LS_COLORS='di=01;34:ln=01;36:or=01;31:mi=01;31:ow=01;36:tw=01;36:st=01;35:ex=01;32:*.sh=01;32:*.js=01;33:*.ts=01;33:*.jsx=01;33:*.tsx=01;33:*.json=01;33:*.md=01;37:*.css=01;35:*.html=01;31'
 
 
 
