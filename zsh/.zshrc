@@ -146,9 +146,7 @@ alias open='explorer.exe .'
 
 # Neovim / LazyVim
 
-alias v='nvim'
 
-alias vim='nvim'
 
 alias nvimconfig='cd ~/.config/nvim && nvim .'
 
@@ -305,9 +303,7 @@ alias open='explorer.exe .'
 
 # Neovim / LazyVim
 
-alias v .='nvim'
 
-alias vim='nvim'
 
 alias nvimconfig='cd ~/.config/nvim && nvim .'
 
@@ -431,10 +427,25 @@ croot() {
 
 
 # Neovim shortcut
-alias v='nvim'
-alias vi='nvim'
-alias vim='nvim'
-alias nv='nvim'
 alias nvcfg='cd ~/.config/nvim && nvim .'
 alias dashboard='nvim ~/.config/nvim/lua/plugins/dashboard.lua'
+
+
+
+
+# Neovim shortcuts
+
+alias v='nvim'
+
+alias vi='nvim'
+
+alias vim='nvim'
+
+alias nv='nvim'
+
+alias nvcfg='cd ~/.config/nvim && nvim .'
+
+alias dashboard='nvim ~/.config/nvim/lua/plugins/dashboard.lua'
+
+
 
